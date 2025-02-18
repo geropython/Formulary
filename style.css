@@ -52,7 +52,7 @@ input[type="submit"]:hover{
     background-color: rgb(70, 104, 167);
 }
 
-error{
+.error{
     color: red;
-    font-size: 10px;
+    font-size: 12px;
 }

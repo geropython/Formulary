@@ -12,25 +12,26 @@
         <h2> Resgistry Formulary</h2>
 
         <form id ="formulario" action="" novalidate autocomplete="off">
-            <label for="name">Nombre: </label>
-            <input type="text" id="name" name="name" minlength="3" required><br><br>
-            <div class="error" id="errorName"></div>
 
-            <label for="lastName">Apellido: </label>
-            <input type="text" id="lastName" name="lastName" minlength="3" required><br><br>
-            <div class="error" id="errorLastName"></div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" minlength="3" required><br><br>
+            <div class="error" id="errorNombre"></div>
 
-            <label for="age">Edad: </label>
-            <input type="number" id="age" name="age" minlength="3" required><br><br>
-            <div class="error" id="errorAge"></div>
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" minlength="3" required><br><br>
+            <div class="error" id="errorApellido"></div>
 
-            <label for="dni">Documento: </label>
-            <input type="number" id="dni" name="dni" minlength="6" required><br><br>
-            <div class="error" id="errorDni"></div>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad" minlength="3" required><br><br>
+            <div class="error" id="errorEdad"></div>
 
-            <label for="mail">Email: </label>
-            <input type="mail" id="mail" name="mail" minlength="11" required><br><br>
-            <div class="error" id="errorMail"></div>
+            <label for="documento">Documento: </label>
+            <input type="number" id="documento" name="documento" minlength="6" required><br><br>
+            <div class="error" id="errorDocumento"></div>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" minlength="11" required><br><br>
+            <div class="error" id="errorEmail"></div>
 
             <label for="actividad">Actividad: </label>
             <select name="actividad" id="actividad" required>
@@ -40,13 +41,13 @@
                 <option value="Medicina">Medicina</option>
                 <option value="Programacion">Programacion</option>
                 <option value="Ingenieria">Ingenieria</option>
-                <option value="Cocinero">Cocinero</option><br>
+                <option value="Culinario">Culinario</option><br>
                 <option value="Docente">Docente</option><br>
             </select>
             <div class="error" id="errorActividad"></div><br>
 
-            <label for="nivelEstudios">Nivel Estudios</label>
-            <select name="nivelEstudios" id="nivelEstudios">
+            <label for="nivelEstudio">Nivel Estudios</label>
+            <select name="nivelEstudio" id="nivelEstudio">
                 <option value="">Seleccione...</option>
                 <option value="Secundario">Secundario</option>
                 <option value="Terciario">Terciario</option>
@@ -59,7 +60,7 @@
             <div class="error" id="errorNivelEstudios"></div><br>
 
             <label class="inline">
-                <input type="checkbox" name="AceptoTerminos" id="AceptoTerminos" required>
+                <input type="checkbox" name="aceptoTerminos" id="aceptoTerminos" required>
                 Acepto Terminos y Condiciones
             </label>
             <div class="error" id="errorTerminos"></div><br>
